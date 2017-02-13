@@ -19,10 +19,10 @@
 
     $.getJSON("https://waterservices.usgs.gov/nwis/iv/?format=json&sites=09058000,06719505&parameterCd=00060&siteStatus=all", function(json) {
       success = true;
-      document.getElementById("cfsG").innerHTML = json.value.timeSeries[1].values[0].value[0].value;
-      document.getElementById("timeG").innerHTML = json.value.timeSeries[1].values[0].value[0].dateTime;
-      document.getElementById("cfsC").innerHTML = json.value.timeSeries[0].values[0].value[0].value;
-      document.getElementById("timeC").innerHTML = json.value.timeSeries[0].values[0].value[0].dateTime;
+      //document.getElementById("cfsG").innerHTML = json.value.timeSeries[1].values[0].value[0].value;
+      //document.getElementById("timeG").innerHTML = json.value.timeSeries[1].values[0].value[0].dateTime;
+      //document.getElementById("cfsC").innerHTML = json.value.timeSeries[0].values[0].value[0].value;
+      //document.getElementById("timeC").innerHTML = json.value.timeSeries[0].values[0].value[0].dateTime;
     });
 
     setTimeout(function() {
@@ -72,7 +72,7 @@
 
         <p>Source: <a href="http://waterservices.usgs.gov/rest/IV-Test-Tool.html">USGS REST Web Services</a></p>
         <p>Note: cubic feet per second (cfs) is the raw value given by a USGS gauge. The ideal level depends on the river.</p>
-        <h5>"Please hold onto your paddle. v3"</h5>
+        <h5>"Please hold onto your paddle. v1.01"</h5>
         <h5>Created By: <a href="https://johnblakey.github.io">John Blakey</a></h5>
       </div>
 
