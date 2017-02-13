@@ -13,10 +13,10 @@ div.picture_box {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	/*padding-top:15px;*/
+	padding-top:15px;			/*hack to correctly show top padding*/
 	border: 5px solid black;
 	border-radius: 5px;
-	background:#658fc0;
+	background:#e6e6e6;
     }
 
 div.indent1 {
