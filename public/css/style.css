@@ -16,7 +16,7 @@ div.picture_box {
 	padding-top: 15px;			/*hack to correctly show top padding*/
 	border: 5px solid black;
 	border-radius: 5px;
-	background: #8cb3d9;
+	background: #b3d1ff;
     }
 
 div.indent1 {
@@ -35,7 +35,7 @@ div.indent3 {
 	border: 5px solid grey;
 	border-radius: 5px;
 	margin-left: 75px;
-	background: #8cb3d9;
+	background: #b3d1ff;
 	color: #cc5200;
 	font-weight: bold;
     }
