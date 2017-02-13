@@ -15,12 +15,21 @@
     <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type = "text/javascript" language = "javascript">
+      var success = false;
+
       $.getJSON("http://waterservices.usgs.gov/nwis/iv/?format=json&sites=09058000,06719505&parameterCd=00060&siteStatus=all", function(json) {
+        success = true;
         document.getElementById("cfsG").innerHTML = json.value.timeSeries[0].values[0].value[0].value;
         document.getElementById("timeG").innerHTML = json.value.timeSeries[0].values[0].value[0].dateTime;
         document.getElementById("cfsC").innerHTML = json.value.timeSeries[1].values[0].value[0].value;
         document.getElementById("timeC").innerHTML = json.value.timeSeries[1].values[0].value[0].dateTime;
       });
+
+      setTimeout(function() {
+        if (!success) {
+          alert("USGS website didn't respond.");
+        }
+      }, 5000);
     </script>
 
     <style>
