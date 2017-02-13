@@ -35,7 +35,8 @@ div.indent3 {
 	border: 5px solid grey;
 	border-radius: 5px;
 	margin-left: 75px;
-	padding: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
 	background: white;
 	color: #cc5200;
 	font-weight: bold;
