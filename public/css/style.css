@@ -1,34 +1,34 @@
 body { 
-	padding-top:25px; 
+	padding-top: 30px; 
 	font-family: arial,verdana,sans-serif,Georgia;
-  	text-align:left;
+  	text-align: left;
   	background: white; 
 	}
 
 .container .jumbortron	{ 
-	border-radius:40px; 
+	border-radius: 30px; 
 	}
 
 div.picture_box {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	padding-top:15px;			/*hack to correctly show top padding*/
+	padding-top: 15px;			/*hack to correctly show top padding*/
 	border: 5px solid black;
 	border-radius: 5px;
-	background:#8cb3d9;
+	background: #8cb3d9;
     }
 
 div.indent1 {
-	margin-left:25px;
+	margin-left: 25px;
     }
 
 div.indent2 {
-	margin-left:50px;
+	margin-left: 50px;
 	border: 5px solid grey;
 	border-radius: 5px;
 	padding: 10px;
-	background:#2f2f1e;
+	background: #2f2f1e;
     }
 
 div.indent3 {
