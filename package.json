@@ -1,12 +1,11 @@
 {
-	"name": "heroku-test",
-	"description": "Test the USGS API on an Herodu app",
+	"name": "river-level-app",
+	"description": "Display current rivel levels based on USGS API data",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"dependencies": {
-		"pg": "4.x",
 		"ejs": "~1.0.0",
 		"express": "~4.9.8"
 	}
