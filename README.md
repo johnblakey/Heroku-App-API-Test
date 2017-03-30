@@ -1,6 +1,6 @@
 # Heroku-App-API-Test
 
-##Display river levels for kayaking. 
+## Display river levels for kayaking. 
 
 The source of data for the river levels is the USGS RESTful API. Developed with the Express node.js application framework.
 
